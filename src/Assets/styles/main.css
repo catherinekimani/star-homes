@@ -1,0 +1,42 @@
+a{
+display: flex;
+align-items: center;
+text-align: center;
+color: #4BE4C9;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+
+}
+
+input.radius {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0 4px 24px;
+gap: 16px;
+width: 496px;
+height: 5vh;
+background: #FFFFFF;
+border: 1px solid #E0E3EB;
+border-radius: 32px;
+}
+
+.btn{
+padding: 12px ;
+gap: 4px;
+width: 109px;
+height: 5vh;
+background: #10B981;
+border-radius: 32px;
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 1;
+}
+form{
+    display: flex;
+    padding-top: 10%;
+}
