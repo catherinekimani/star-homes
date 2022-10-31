@@ -2,8 +2,8 @@ import React from 'react';
 import styled,{css} from 'styled-components';
 import logo from '../Assets/images/Rectangle.png'
 import navimg from '../Assets/images/nav-img.png'
-import "../Assets/styles/main.css"
-import "../Assets/styles/mediaquery.css"
+import '../Assets/styles/main.css'
+import '../Assets/styles/mediaquery.css'
 import one from '../Assets/images/icon1.png'
 import two from '../Assets/images/icon2.png'
 import three from '../Assets/images/icon3.png'
