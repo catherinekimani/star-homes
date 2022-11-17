@@ -11,7 +11,6 @@ import house3 from '../Assets/images/house3.png'
 
 import star from '../Assets/images/star.png'
 
-import first from '../Assets/images/first.png'
 
 
 
@@ -38,6 +37,9 @@ const Content = styled.div`
 const Customers = () => {
     return (
         <div>
+            <div className='occupation'>
+                
+            </div>
             <H1 className='p-5'>What customers say about us</H1>
             <div className='d-flex justify-content-evenly'>
                 <div class="box">
@@ -111,42 +113,7 @@ const Customers = () => {
         </Content>
                 </div>
             </div>
-            <H1 className='p-5'>Find out more about selling and buying homes</H1>
-            <div >
-            <div>
-                <img src={first} alt='search1'></img>
-                <div>
-                    <div >
-                <img src={ellipse2} alt='search1'></img>
-                <div>
-                <p>John Maina</p>
-                    </div>
-            </div>
-                </div>
-            </div>
-            <div>
-                <img src={first} alt='search1'></img>
-                <div>
-                    <div >
-                <img src={ellipse2} alt='search1'></img>
-                <div>
-                <p>John Maina</p>
-                    </div>
-            </div>
-                </div>
-            </div>
-            <div>
-                <img src={first} alt='search1'></img>
-                <div>
-                    <div >
-                <img src={ellipse2} alt='search1'></img>
-                <div>
-                <p>John Maina</p>
-                    </div>
-            </div>
-                </div>
-                </div>
-                </div>
+            
         </div>
     );
 }
