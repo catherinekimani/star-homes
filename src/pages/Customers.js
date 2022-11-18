@@ -96,10 +96,13 @@ const Customers = () => {
                     <P>Ready For Occupation</P>
                 </div>
             </div>
-            <div>
+            <div className='tour'>
                 <Book>Book a tour with us</Book>
                 <P1>Houses recommended by our partners that have been curated to become the home of your dreams!</P1>
                 <H2>House Detail</H2>
+            </div>
+            <div className='rooms'>
+                <p>2 Bedrooms</p>
             </div>
             <H1 className='p-5'>What customers say about us</H1>
             <div className='d-flex justify-content-evenly'>
