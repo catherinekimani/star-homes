@@ -34,11 +34,72 @@ const Content = styled.div`
     background: rgb(220, 217, 217);
     box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
 `;
+const Hr = styled.hr`
+    width:32px;
+    height:1px;
+    background: #F59E0B;
+`;
+const P = styled.p`
+    width: 155px;
+    height: 18px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #F59E0B;
+`;
+const Book = styled.h1`
+    width: 329px;
+    height: 40px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1B1C57;
+    margin-left:17%;
+`;
+const P1 = styled.p`
+    width: 390px;
+    height: 56px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626687;
+    opacity: 0.75;
+    margin-left:17%;
+`;
+const H2 = styled.h2`
+    width: 413px;
+    height: 28px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1C57;
+    opacity: 0.75;
+    margin-left:17%;
+`;
 const Customers = () => {
     return (
         <div>
-            <div className='occupation'>
-                
+            <div className='container occupation d-flex'>
+                <Hr className='hr'>
+                </Hr>
+                <div className='title'>
+                    <P>Ready For Occupation</P>
+                </div>
+            </div>
+            <div>
+                <Book>Book a tour with us</Book>
+                <P1>Houses recommended by our partners that have been curated to become the home of your dreams!</P1>
+                <H2>House Detail</H2>
             </div>
             <H1 className='p-5'>What customers say about us</H1>
             <div className='d-flex justify-content-evenly'>
