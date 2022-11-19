@@ -11,6 +11,16 @@ import house3 from '../Assets/images/house3.png'
 
 import star from '../Assets/images/star.png'
 
+// import shape1 from '../Assets/images/shape1.png'
+// import shape2 from '../Assets/images/shape1.png'
+// import shape3 from '../Assets/images/shape1.png'
+// import shape4 from '../Assets/images/shape3.png'
+
+import rect1 from '../Assets/images/rect1.png'
+import rect2 from '../Assets/images/rect2.png'
+import rect3 from '../Assets/images/rect3.png'
+import rect4 from '../Assets/images/rect4.png'
+
 
 
 
@@ -101,8 +111,46 @@ const Customers = () => {
                 <P1>Houses recommended by our partners that have been curated to become the home of your dreams!</P1>
                 <H2>House Detail</H2>
             </div>
-            <div className='rooms'>
-                <p>2 Bedrooms</p>
+            <div className='container rooms'>
+                {/* <div className='room1 d-flex '>
+                <div className='d-flex'>
+                <img src={shape1} alt='search1'></img>
+                    <p>2 Bedrooms</p>
+                </div>
+                <div className='d-flex'>
+                <img src={shape2} alt='search1'></img>
+                    <p>2 Bathrooms</p>
+                    </div>
+                    </div>
+                <div className='d-flex'>
+                <div className='d-flex'>
+                <img src={shape3} alt='search1'></img>
+                    <p>1 Carport</p>
+                </div>
+                <div className='d-flex'>
+                <img src={shape3} alt='search1'></img>
+                    <p>1 Floors</p>
+                    </div>
+                </div> */}
+                <div className='rooms d-flex justify-content-enter'>
+                    <div>
+                    <div className='rect'>
+                <img src={rect1} alt='rect1'></img>
+                </div> 
+                </div>
+                    <div className='d-flex'>
+                <img src={rect2} alt='rect2'></img>
+                    </div>
+                <div>
+                <img src={rect3} alt='rect3'></img>
+                    </div> 
+                <div>
+                <img src={rect4} alt='rect4'></img>
+                </div>     
+                </div>
+            </div>
+            
+            <div>
             </div>
             <H1 className='p-5'>What customers say about us</H1>
             <div className='d-flex justify-content-evenly'>
