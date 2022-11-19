@@ -9,3 +9,10 @@ body{
     background: rgb(154, 250, 200);
     background: linear-gradient(155deg, rgb(154, 249, 200) 0%, rgba(255,255,255,1) 40%);
 }
+/* .rect img{
+    margin-left: 50%;
+    
+} */
+.rooms img{
+    padding:0 10% 0 10%;
+}
