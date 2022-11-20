@@ -96,6 +96,22 @@ const H2 = styled.h2`
     opacity: 0.75;
     margin-left:17%;
 `;
+const Button = styled.button`
+    width: 166px;
+    height: 48px;
+    left: 412px;
+    background: rgba(57, 238, 145, 0.56);
+    border-radius: 4px;
+    border:1px rgba(57, 238, 145, 0.56);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+
+`;
 const Customers = () => {
     return (
         <div>
@@ -132,7 +148,7 @@ const Customers = () => {
                     <p>1 Floors</p>
                     </div>
                 </div> */}
-                <div className='rooms d-flex justify-content-enter'>
+                <div className='rooms d-flex '>
                     <div>
                     <div className='rect'>
                 <img src={rect1} alt='rect1'></img>
@@ -149,7 +165,12 @@ const Customers = () => {
                 </div>     
                 </div>
             </div>
-            
+            <div className='contact d-flex justify-content-center'>
+                
+                <div>
+                    <Button>Contact Us</Button>
+                </div>
+            </div>
             <div>
             </div>
             <H1 className='p-5'>What customers say about us</H1>
